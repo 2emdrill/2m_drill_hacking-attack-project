@@ -1,17 +1,31 @@
 # 2m_drill_hacking-attack-project
-Izi code ziri muri repository(folder) kuzikoresh ntabi nt'agobyemewe knd birahanirwa n'amategeko y'uRwanda
 
-# File yirwa index.php 
-iyi file ni clone Instagram knd ishobora gukoreshwa 
-ba phishing (babiba umwirondoro wabo) abantu bafite
-Instagram account 
-# UKUNTU BAKORESHA IZI CODE ZIRI MURI index.php
- 1.install termux in your Android phone or iphone 
- 2.pkg update && pkg upgrade
- 3.termux-setup-storage
- 4.pkg install php && pkg install openssh
- 5.pkg install git
- 6.git clone myrepo
+## DISCLAIMER
 
- 
- 
+**Izi code ziri muri iri folder (repository) zerekana uko *phishing* ikora. Si ngombwa na gato kuzifashisha mu bikorwa bitemewe n'amategeko. Ukoresheje izi code nabi ahanwa n'amategeko y’u Rwanda n’andi mategeko mpuzamahanga.**
+
+Iri ni isomo ryerekana uburyo abahunguzi bashobora kwiba amakuru y’abantu, ariko rigomba gukoreshwa gusa mu rwego rw’ubushakashatsi cyangwa kwigisha uko twakwirinda *cyber attacks.*
+
+---
+
+## File: `index.php`
+
+Iyi ni clone ya Instagram login page, ishobora gukoreshwa mu buryo bwa **phishing attack**, aho umuntu ashobora kwiyoberanya akiba konti y’undi muntu.
+
+---
+
+## UKO IKORESHWA (For Educational Purposes Only)
+
+1. **Shyira Termux muri telefoni yawe (Android cyangwa iPhone):**  
+   [Download Termux on F-Droid](https://f-droid.org/en/packages/com.termux/)
+
+2. **Fungura Termux, wandike ibi bikurikira:**
+   ```bash
+   pkg update && pkg upgrade
+   termux-setup-storage
+   pkg install php
+   pkg install openssh
+   pkg install git
+   git clone https://github.com/username/myrepo
+   cd myrepo
+   php -S 0.0.0.0:8080
